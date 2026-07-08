@@ -1,0 +1,32 @@
+{
+  "name": "social-trending-router-skill",
+  "version": "1.0.0",
+  "description": "Scans and maps mock hot discussion triggers to direct specific social ad campaign distribution budgets dynamically.",
+  "author": "alphaparkinc",
+  "category": "marketing",
+  "tags": [
+    "social-media",
+    "trends",
+    "routing",
+    "ad-spend",
+    "viral"
+  ],
+  "inputs": {
+    "trending_keywords": {
+      "type": "array",
+      "description": "Hot keywords on social (Reddit/Twitter/TikTok)."
+    },
+    "ad_campaigns": {
+      "type": "array",
+      "description": "Existing ad configurations: [{id, name, keywords, base_budget}]."
+    }
+  },
+  "outputs": {
+    "routed_campaigns": {
+      "type": "array",
+      "description": "Campaigns with dynamic trend-based budget multipliers."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
