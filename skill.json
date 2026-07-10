@@ -1,8 +1,8 @@
 {
   "name": "social-trending-router-skill",
   "version": "1.0.0",
-  "description": "Scans and maps mock hot discussion triggers to direct specific social ad campaign distribution budgets dynamically.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Scans and maps mock hot discussion triggers to direct specific social ad campaign distribution budgets dynamically.",
+  "author": "genpark",
   "category": "marketing",
   "tags": [
     "social-media",
