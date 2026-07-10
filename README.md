@@ -1,4 +1,4 @@
-# social-trending-router-skill
+# genpark-social-trending-router-skill
 
 > **GenPark AI Agent Skill** -- Viral topic ad budget router.
 
